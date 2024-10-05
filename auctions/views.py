@@ -6,7 +6,8 @@ from django.urls import reverse
 from django import forms
 from PIL import Image
 
-
+ 
+ 
 from .models import User, AuctionListing, Bidding, Category
 
 class BiddingForm(forms.Form):
